@@ -43,9 +43,8 @@ button:active {
     color: #2e2f42;
 }
 
-.site-navigation__list-item__link,
-.site-navigation__contact-list__link {
-    color: #434455;
+.site-navigation__list-item__link {
+    color: #2e2f42;
     text-decoration: none;
     font-weight: 500;
     line-height: 1.5;
@@ -53,20 +52,34 @@ button:active {
     font-size: 16px;
 }
 
-.site-navigation__list-item__link:hover,
+.site-navigation__list-item__link:hover {
+    color: #404bbf;
+}
+
+.site-navigation__list-item__link:active {
+    color: #404bbf;
+    text-decoration: underline;
+}
+
+.site-navigation__contact-list__link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
 .site-navigation__contact-list__link:hover {
     color: #404bbf;
 }
 
-.site-navigation__list-item__link:active
 .site-navigation__contact-list__link:active {
     color: #404bbf;
-    text-decoration: underline;
 }
 
 
 .site-navigation__contact {
     font-style: normal;
+    text-decoration: underline;
 }
 
 .hero-section {
