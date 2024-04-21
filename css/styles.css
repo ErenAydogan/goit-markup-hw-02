@@ -62,6 +62,10 @@ button:active {
     color: #404bbf;
 }
 
+.site-navigation__contact {
+    font-style: normal;
+}
+
 .site-navigation__contact-list__link {
     font-size: 16px;
     line-height: 1.5;
@@ -75,12 +79,6 @@ button:active {
 
 .site-navigation__contact-list__link:active {
     color: #404bbf;
-}
-
-
-.site-navigation__contact {
-    font-style: normal;
-    text-decoration: underline;
 }
 
 .hero-section {
