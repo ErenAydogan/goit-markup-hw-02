@@ -17,11 +17,15 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: #404BBF;
-    cursor: pointer;
+}
+
+button:active {
+    background-color: #404BBF;
 }
 
 .site-navigation__logo,
@@ -35,8 +39,7 @@ button:hover {
     color: #4d5ae5;
 }
 
-.site-navigation__logo-2,
-.footer-section__logo-2 {
+.site-navigation__logo-studio {
     color: #2e2f42;
 }
 
@@ -87,6 +90,18 @@ button:hover {
     color: #2e2f42;
 }
 
+.how-we-work__list-item__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.how-we-work__list-item__desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .our-team {
     background-color: #F4F4FD;
 }
@@ -101,7 +116,7 @@ button:hover {
     color: #2e2f42;
 }
 
-.how-we-work__list-item {
+.our-team__list-member {
     background-color: #ffffff;
 }
 
@@ -129,4 +144,8 @@ button:hover {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+
+.footer-section__logo-studio {
+    color: #f4f4fd;
 }
