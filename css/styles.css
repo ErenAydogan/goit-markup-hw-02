@@ -1,5 +1,6 @@
 body {
-    color: 434455;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -23,6 +24,10 @@ body {
     line-height: 1.5;
     letter-spacing: .02em;
     color: #2e2f42;
+}
+
+.site-navigation__list-item__link:hover {
+    color: #404bbf;
 }
 
 .site-navigation__list-item__link:focus {
@@ -105,7 +110,7 @@ body {
     text-align: center;
     letter-spacing: .02em;
     text-transform: capitalize;
-    color: #222f42;
+    color: #2e2f42;
 }
 
 .our-team__list-member {
@@ -162,7 +167,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: .03;
+    letter-spacing: .03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
